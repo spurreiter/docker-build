@@ -1,15 +1,31 @@
 {
-  "private": true,
   "name": "docker-build",
   "version": "1.0.0",
+  "private": true,
   "description": "build reliable docker builds",
+  "keywords": [],
+  "homepage": "https://github.com/spurreiter/docker-build",
+  "bugs": {
+    "url": "https://github.com/spurreiter/docker-build/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spurreiter/docker-build.git"
+  },
+  "license": "MIT",
+  "author": "spurreiter",
+  "files": [
+    "src"
+  ],
   "main": "src/index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
   "scripts": {
+    "lint": "standard --fix",
     "test": "mocha"
   },
-  "keywords": [],
-  "author": "spurreiter",
-  "license": "MIT",
   "dependencies": {
     "handlebars": "^4.7.2",
     "shelljs": "^0.8.3"

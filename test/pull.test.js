@@ -1,3 +1,5 @@
+/* eslint-env mocha */
+
 const { pull } = require('..')
 
 describe.skip('pull', function () {

@@ -1,3 +1,5 @@
+/* eslint-env mocha */
+
 const assert = require('assert')
 const shell = require('shelljs')
 const { labelsToString, imageName, buildDockerfile } = require('../src/utils')
